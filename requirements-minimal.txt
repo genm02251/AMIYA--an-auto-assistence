@@ -1,0 +1,9 @@
+# Minimal dependencies for basic AMIYA functionality
+opencv-python-headless>=4.8.0
+pillow>=10.0.0
+numpy>=1.24.0
+click>=8.1.0
+pyautogui>=0.9.54
+
+# Optional: Add ultralytics for enhanced YOLO detection
+# ultralytics>=8.0.0

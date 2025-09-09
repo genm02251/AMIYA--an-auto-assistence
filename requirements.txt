@@ -1,0 +1,23 @@
+# Core dependencies for AMIYA AI Assistant
+opencv-python>=4.8.0
+pillow>=10.0.0
+numpy>=1.24.0
+ultralytics>=8.0.0
+pyautogui>=0.9.54
+pynput>=1.7.6
+psutil>=5.9.0
+
+# AI/ML dependencies
+torch>=2.0.0
+torchvision>=0.15.0
+
+# GUI and system interaction
+pygetwindow>=0.0.9
+pywin32>=306; sys_platform == "win32"
+pyobjc>=9.0; sys_platform == "darwin"
+python-xlib>=0.33; sys_platform == "linux"
+
+# Utility dependencies
+click>=8.1.0
+pyyaml>=6.0
+requests>=2.31.0
